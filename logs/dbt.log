@@ -84,3 +84,56 @@ Happy modeling!
 [0m14:26:18.416627 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F112366790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F10265D0D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F10833F8D0>]}
 [0m14:26:18.417618 [debug] [MainThread]: Flushing usage events
 [0m14:26:20.118112 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:01:25.651904 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C2AF5ED310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C2AF240110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C2AF596C90>]}
+
+
+============================== 10:01:25.659930 | e196a691-3d5f-4efa-960f-48bec8c6ed47 ==============================
+[0m10:01:25.659930 [info ] [MainThread]: Running with dbt=1.10.13
+[0m10:01:25.660997 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'use_colors': 'True', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'quiet': 'False', 'empty': 'None', 'printer_width': '80', 'indirect_selection': 'eager', 'log_path': 'logs', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'profiles_dir': 'C:\\Users\\asus\\.dbt'}
+[0m10:01:25.722366 [info ] [MainThread]: dbt version: 1.10.13
+[0m10:01:25.723393 [info ] [MainThread]: python version: 3.11.9
+[0m10:01:25.724775 [info ] [MainThread]: python path: C:\Users\asus\Desktop\DBT\.venv\Scripts\python.exe
+[0m10:01:25.726253 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m10:01:30.753271 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m10:01:30.754379 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m10:01:30.755696 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m10:01:34.753836 [info ] [MainThread]: Using profiles dir at C:\Users\asus\.dbt
+[0m10:01:34.754838 [info ] [MainThread]: Using profiles.yml file at C:\Users\asus\.dbt\profiles.yml
+[0m10:01:34.755934 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\asus\Desktop\DBT\dbt_project.yml
+[0m10:01:34.757519 [info ] [MainThread]: adapter type: databricks
+[0m10:01:34.758834 [info ] [MainThread]: adapter version: 1.10.9
+[0m10:01:34.760145 [info ] [MainThread]: Configuration:
+[0m10:01:34.761450 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m10:01:34.762463 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m10:01:34.763455 [info ] [MainThread]: Required dependencies:
+[0m10:01:34.765884 [debug] [MainThread]: Executing "git --help"
+[0m10:01:34.830394 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m10:01:34.831411 [debug] [MainThread]: STDERR: "b''"
+[0m10:01:34.832415 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m10:01:34.833414 [info ] [MainThread]: Connection:
+[0m10:01:34.834418 [info ] [MainThread]:   host: dbc-ccbf9ff7-8028.cloud.databricks.com
+[0m10:01:34.835775 [info ] [MainThread]:   http_path: /sql/1.0/warehouses/9a224c5ef80e2ed5
+[0m10:01:34.837024 [info ] [MainThread]:   catalog: dbt
+[0m10:01:34.837908 [info ] [MainThread]:   schema: default
+[0m10:01:34.840924 [info ] [MainThread]: Registered adapter: databricks=1.10.9
+[0m10:01:35.453573 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(session-id=None, name=debug) - Creating connection
+[0m10:01:35.454577 [debug] [MainThread]: Acquiring new databricks connection 'debug'
+[0m10:01:35.454577 [debug] [MainThread]: Using databricks connection "debug"
+[0m10:01:35.455577 [debug] [MainThread]: On debug: select 1 as id
+[0m10:01:35.456601 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:01:37.615806 [debug] [MainThread]: Databricks adapter: Connection(session-id=01f0b224-a8e4-1f0f-99d6-90a21313d1a9) - Created
+[0m10:01:38.472566 [debug] [MainThread]: SQL status: OK in 3.020 seconds
+[0m10:01:38.476610 [debug] [MainThread]: Databricks adapter: Cursor(session-id=01f0b224-a8e4-1f0f-99d6-90a21313d1a9, command-id=01f0b224-a926-18f3-bdf0-822144a36c35) - Closing
+[0m10:01:38.478204 [debug] [MainThread]: On debug: Close
+[0m10:01:38.479235 [debug] [MainThread]: Databricks adapter: Connection(session-id=01f0b224-a8e4-1f0f-99d6-90a21313d1a9) - Closing
+[0m10:01:38.838222 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m10:01:38.840799 [info ] [MainThread]: [31m1 check failed:[0m
+[0m10:01:38.843846 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\asus\Desktop\DBT\dbt_project.yml> not found
+
+[0m10:01:38.848785 [debug] [MainThread]: Command `dbt debug` failed at 10:01:38.847776 after 13.30 seconds
+[0m10:01:38.850930 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C2A8C02AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C2B85D6850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C2AE5B1E10>]}
+[0m10:01:38.852927 [debug] [MainThread]: Flushing usage events
+[0m10:01:40.605829 [debug] [MainThread]: An error was encountered while trying to flush usage events
