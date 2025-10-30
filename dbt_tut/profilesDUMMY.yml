@@ -1,0 +1,20 @@
+{# same as original profiles , just absence of actual token #}
+dbt_tut:
+  outputs:
+    dev:
+      catalog: dbt
+      host: dbc-ccbf9ff7-8028.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/9a224c5ef80e2ed5
+      schema: default
+      threads: 1
+      token: 
+      type: databricks
+    prod:
+      catalog: dbt_prod
+      host: dbc-ccbf9ff7-8028.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/9a224c5ef80e2ed5
+      schema: default
+      threads: 1
+      token: 
+      type: databricks
+  target: dev
